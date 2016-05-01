@@ -1,0 +1,64 @@
+Stats:
+Hungry
+Full
+Happy
+
+As a Tamagotchi owner
+I want to feed my Tamagotchi
+So that I can satiate it's hunger
+Given I have a Tamagotchi
+When I feed it
+Then it's hungriness is decreased
+And it's fullness is increased
+
+Playing With Tamagotchi
+As a Tamagotchi owner
+I want to play with my Tamagotchi
+So that I can make it happier
+Given I have a Tamagotchi
+When I play with it
+Then it's happiness is increased
+
+Making Tamagotchi 💩
+As a Tamagotchi owner
+I want to make my Tamagotchi poop
+So that it is more comfortable
+Given I have a Tamagotchi
+When I make it poop
+Then it's fullness is decreased
+
+Changing Tamagotchi Needs Over Time
+As a Tamagotchi owner
+I want my Tamagotchi's needs to change over time
+So that I have to look after it carefully
+Given I have a Tamagotchi
+When time passes
+And it's hungriness is increased
+And it's happiness is decreased
+
+Tamagotchi Can Be 😿
+As a Tamagotchi owner
+I want my Tamagotchi's overall mood to change base on its stats
+So that I know what action to take to care for my tamagotchi
+Given I have a Tamagotchi
+When its hungriness is above 70
+Or its happiness is below 30
+Then its mood will be 😿
+
+Tamagotchi Can Be 😸
+As a Tamagotchi owner
+I want my Tamagotchi's overall mood to change base on its stats
+So that I know what action to take to care for my tamagotchi
+Given I have a Tamagotchi
+When its hungriness is below 30
+And its happiness is above 70
+Then its mood will be 😸
+
+Tamagotchi Can Be 💀
+As a Tamagotchi owner
+I want my Tamagotchi's overall mood to change base on its stats
+So that I know what action to take to care for my tamagotchi
+Given I have a Tamagotchi
+When its hungriness is 100
+Then its mood will be 💀
+
